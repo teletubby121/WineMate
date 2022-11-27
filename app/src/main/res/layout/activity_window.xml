@@ -33,6 +33,30 @@
           android:textSize="18sp"
           app:backgroundTint="#FFFFFF" />
 
+      <Button
+          android:id="@+id/MALAGOUZIA"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="1dp"
+          android:gravity="center"
+          android:padding="15dp"
+          android:text="MALAGOUZIA"
+          android:textColor="@color/black"
+          android:textSize="18sp"
+          app:backgroundTint="#FFFFFF" />
+
+      <Button
+          android:id="@+id/MOSXOFILERO"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="1dp"
+          android:gravity="center"
+          android:padding="15dp"
+          android:text="MOSXOFILERO"
+          android:textColor="@color/black"
+          android:textSize="18sp"
+          app:backgroundTint="#FFFFFF" />
+
 
     </LinearLayout>
   </LinearLayout>
