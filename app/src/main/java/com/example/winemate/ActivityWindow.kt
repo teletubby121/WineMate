@@ -5,18 +5,17 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class MainActivity : AppCompatActivity() {
+class ActivityWindow : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_window)
 
-        val GREEKWINES = findViewById<Button>(R.id.GREEKWINES)
-        GREEKWINES.setOnClickListener {
+        val ASYRTIKO = findViewById<Button>(R.id.ASYRTIKO)
+        ASYRTIKO.setOnClickListener {
 
-            val intent = Intent(this, ActivityWindow::class.java)
+            val intent = Intent(this, VarietyWindow::class.java)
             startActivity(intent)
         }
-
 
     }
 }
